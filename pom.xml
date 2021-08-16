@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.github.jitpack</groupId>
-  <artifactId>maven-simple</artifactId>
+  <groupId>io.zolaton</groupId>
+  <artifactId>ai-processor</artifactId>
   <version>0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
