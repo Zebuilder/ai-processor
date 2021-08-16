@@ -12,6 +12,6 @@ public class AIProc
     }
 
     public String greet(String name) {
-        return "Hello " + name + "from AIProc";
+        return "Hello " + name + " from AIProc";
     }
 }
