@@ -39,8 +39,8 @@
         <version>3.2</version>
         <configuration>
           <!-- Compile java 7 compatible bytecode -->
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
 
@@ -70,6 +70,9 @@
             </goals>
           </execution>
         </executions>
+        <configuration>
+          <source>8</source>
+        </configuration>
         <version>3.3.0</version>
       </plugin>
     </plugins>
