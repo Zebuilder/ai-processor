@@ -15,7 +15,6 @@
     <version>0.2-SNAPSHOT</version>
   </parent>
   
-
   <repositories>
     <repository>
       <id>github</id>
