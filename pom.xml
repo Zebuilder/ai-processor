@@ -23,4 +23,12 @@
     </repository>
   </repositories>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.itext</groupId>
+      <artifactId>itext</artifactId>
+      <version>2.1.7.js8</version>
+    </dependency>
+  </dependencies>
+
 </project>
