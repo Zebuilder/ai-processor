@@ -9,7 +9,16 @@
 
   <name>AI Processor</name>
 
-  <properties>
+  <repositories>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/Zebuilder/*</url>
+    </repository>
+  </repositories>
+
+
+
+  <!--<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
@@ -17,7 +26,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/Zebuilder/ai-processor</url>
+      <url>https://maven.pkg.github.com/Zebuilder/${artifactId}</url>
     </repository>
   </distributionManagement>
 
@@ -38,14 +47,14 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
         <configuration>
-          <!-- Compile java 7 compatible bytecode -->
+          --><!-- Compile java 7 compatible bytecode --><!--
           <source>11</source>
           <target>11</target>
         </configuration>
       </plugin>
 
       <plugin>
-        <!-- Create sources.jar -->
+        --><!-- Create sources.jar --><!--
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <executions>
@@ -76,7 +85,7 @@
         <version>3.3.0</version>
       </plugin>
     </plugins>
-  </build>
+  </build>-->
 
 
 </project>
