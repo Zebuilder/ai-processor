@@ -7,6 +7,12 @@
   <version>0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
+  <parent>
+    <groupId>io.zolaton</groupId>
+    <artifactId>zolaton-parent-pom</artifactId>
+    <version>0.2-SNAPSHOT</version>
+  </parent>
+  
   <name>AI Processor</name>
 
   <repositories>
